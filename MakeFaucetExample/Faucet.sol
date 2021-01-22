@@ -1,5 +1,4 @@
-
-pragma solidity ^0.8.0;
+pragma solidity >0.4.19;
 
 contract Faucet {
 	function withdraw(uint withdraw_amount) public {
